@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cadastrar Filmes</h1>
+
+    <form action="" method="get">
+      <div>
+        <label for="input-texto">Digite o nome do filme</label>
+        <input type="text" id="input-texto" />
+      </div>
+
+      <div>
+        <label for="input-number">Digite o ano de lançamento do Filme</label>
+        <input type="number" id="input-number" />
+      </div>
+
+      <div>
+        <label for="input-texto">Insira a sinopse do filme</label>
+        <input type="text" id="input-texto" />
+      </div>
+
+      <div>
+        <label for="Imagem">Insira a capa do filme </label>
+        <input type="file" class="upload-box" id="Imagem" />
+      </div>
+      <input type="submit" value="Cadastrar" />
+    </form>
+    <h2>Filmes cadastrados</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Ano de lançamento</th>
+          <th>Sinopse</th>
+          <th>Imagem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>O poderoso Chefão</td>
+          <td>1972</td>
+          <td>
+            Uma família mafiosa luta para estabelecer sua supremacia nos Estados
+            Unidos depois da segunda Guerra Mundial. Uma tentativa de
+            assassinato deixa o chefão Vito Corleone incapacitado e força os
+            filhos Michael e Sonny a assumir os negócios.
+          </td>
+          <td>
+            <img
+              src="imagens/20120876.jpg"
+              alt="Imagem do Filme"
+              style="width: 60px"
+            />
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>Três Homens em Conflito</td>
+          <td>1966</td>
+          <td>
+            Durante a Guerra Civil Americana, um pistoleiro misterioso e dois
+            estrangeiros decidem juntar suas forças para encontrar um tesouro
+            escondido. Cada um dos homens conhece apenas uma parte da
+            localização da fortuna, o que força essa parceria. O problema é que
+            nenhum deles tem a intenção de dividir a riqueza.
+          </td>
+          <td>
+            <img
+              src="imagens/D_NQ_NP_800865-MLB42234342999_062020-O.jpg"
+              alt="Imagem do Filme"
+              style="width: 60px"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
