@@ -1,0 +1,48 @@
+.fundo-roxo {
+	background-color: #40026c;
+}
+
+.btn,
+.btn:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+button.btn:hover {
+	background-color: #a13ae6;
+	color: #fff;
+}
+
+input.form-control {
+	background-color: #40026c;
+	border: 1px solid #fff;
+}
+
+input.form-control:focus {
+	background-color: #a13ae6;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+input.form-control::placeholder {
+	color: #fff;
+}
+
+a.btn.btn-primary {
+	background-color: #40026c;
+	border-color: #fff;
+}
+
+a.btn.btn-primary:hover {
+	background-color: #a13ae6;
+}
+
+body {
+	background-color: #82eaf049;
+}
+
+.container {
+	margin-top: 25px;
+}
+
+
